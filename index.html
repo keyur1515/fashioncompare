@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fshion Compare - Compare prices of your desired fashion items at one destination</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <meta property='og:title' content='Fshion Compare - Compare prices of your desired fashion items at one destination'/>
+
+  <meta property='og:image' content='imgs/thumbnail.png'/>
+
+  <meta property='og:description' content='Your one-click destination to find your desired fashion item at its best price'/>
+
+  <meta property='og:url' content='https://keyur1515.github.io/fashioncompare/'/>
+</head>
+<body class="body">
+  <div class="container d-flex align-items-center h-100">
+    <div class="row">
+      <p><button class="reg" onclick="register()">Enter Name</button></p>
+      <header class="text-center col-12">
+        <h1 class="text-uppercase"><strong>Welcome<br>to<br>Fashion Compare</strong></h1>
+      </header>
+      <div class="buffer col-12"></div>
+      <section class="text-center col-12">
+      <a href="About us.html"><button class="btn btn-primary btn-xl">Shop Now</button></a>
+      </section>
+    </div>
+  </div>
+  <script type="text/javascript">
+  function register() {
+    let a = prompt("Hi, may I know your name?");
+    if (a === "nitika") {
+      let n = prompt("oh wait! are you Nitika Krishna? yes/no");
+      if (n === "yes") {
+        alert("Hi Sweet Little Heart <3");
+      } else {
+        alert("oh okay HI :)");
+      }
+    } else if (a === "nitika krishna") {
+      let m = prompt("oh wait! do you live in Millenium? yes/no");
+      if (m === "yes") {
+        alert("Hi Sweet Little Heart <3");
+      } else {
+        alert("oh okay HI :)");
+      }
+    } else {
+      alert("Hi there "+ a);
+    }
+  }
+</script>
+</body>
+</html>
